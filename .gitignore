@@ -37,3 +37,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Custom ###
+/src/main/resources/database.db
