@@ -10,6 +10,5 @@ object Env {
         this.name = name.uppercase()
     }
 
-
-    val databasePath: String = "./database.db"
+    val databasePath: String = "./src/main/resources/database.db"
 }
