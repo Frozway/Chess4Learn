@@ -7,7 +7,7 @@
         <!-- encoders are assigned the type
              ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
         <encoder>
-            <pattern>%d{dd-MM-yyy'T'HH:mm:ss.SSS} -%kvp- %msg%n</pattern>
+            <pattern>%d{HH:mm:ss.SSS} | [%thread] | %highlight(%-5level)| %logger{36} | %green(%msg) %n</pattern>
         </encoder>
     </appender>
 
@@ -16,3 +16,4 @@
     </root>
 
 </configuration>
+
